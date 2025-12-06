@@ -13,7 +13,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.secret_key = "naj_ostane_prazno"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-font_path = "fonts\Anton-Regular.ttf"
+font_path = "fonts/Anton-Regular.ttf"
 font_size = 20
 font = ImageFont.truetype(font_path, font_size)
 
