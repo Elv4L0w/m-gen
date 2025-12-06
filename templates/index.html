@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Meme Generator</title>
+  </head>
+  <body style="background-color: lightgray">
+    <div style="display: flex; flex-direction: column; align-items: center">
+      <h1>Meme Generator</h1>
+      <hr />
+      <form method="post" enctype="multipart/form-data">
+        <label style="display: flex; flex-direction: column"
+          >Nalozite vaso sliko:
+          <input type="file" name="image" accept="image/*" required /></label
+        ><br />
+        <label>Upper text: <input type="text" name="top_text" /></label
+        ><br /><br />
+        <label>Lower text: <input type="text" name="bottom_text" /></label
+        ><br /><br />
+        <button type="submit" style="font-weight: bold">Ustvari meme</button>
+      </form>
+    </div>
+  </body>
+</html>
