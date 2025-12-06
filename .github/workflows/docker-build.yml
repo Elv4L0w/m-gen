@@ -1,4 +1,4 @@
-name: Docker Compose Build Test
+name: Docker build
 
 on:
   push:
@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - run: docker-compose up --build -d
+      - run: docker build -t meme-generator .
