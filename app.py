@@ -10,7 +10,7 @@ UPLOAD_FOLDER = "static/uploads"
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.secret_key = "promeni_na_nesto_sigurno"
+app.secret_key = "naj_ostane_prazno"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 font_path = "fonts\Anton-Regular.ttf"
